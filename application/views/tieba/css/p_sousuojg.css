@@ -1,0 +1,97 @@
+*{
+	margin: 0px auto;
+	padding: 0px;
+}
+a{
+	text-decoration: none;
+}
+header{
+	height: 0.88rem;
+	line-height: 0.88rem;
+	text-align: center;
+	font-size: 0.36rem;
+	color: #ffffff;
+	width: 7.5rem;
+	background-color: #3090E2;
+}
+header a {
+	position: absolute;
+	left: 0rem;
+	top: 0rem;
+	height: 0.88rem;
+	line-height: 0.88rem;
+}
+header span{
+	height: 0.88rem;
+	width:0.68rem ;
+}
+header a img {
+	height: 0.44rem;
+	width: 0.24rem;
+	vertical-align: middle;
+	margin-left: 0.2rem;
+	margin-right:0.24rem ;
+}
+header div{
+	height: 0.88rem;
+	line-height: 0.88rem;
+	position: absolute;
+	top: 0rem;
+	right: 0rem;
+	width: 0.92rem;
+	padding-right: 0.2rem;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	text-align: center;
+	font-size: 0.24rem;
+}
+#all{
+	width: 7.5rem;
+	overflow-y:scroll;  
+    overflow-x:auto; 
+}
+.sousuo{
+	width: 7.5rem;
+	height: 0.8rem;
+	padding: 0rem 0.2rem;
+	border-bottom: 0.02rem solid #EEEEEE;
+	display: flex;
+	align-items: center;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+.sousuo img{
+	height: 0.4rem;
+	width: 0.4rem;
+	margin-top: 0.1rem;
+	margin-left: 0rem;
+	margin-right: 0.3rem;
+}
+.sousuo input{
+	border: 0rem solid #F7F7F7;
+	font-size: 0.28rem;
+	color: #999999;
+	margin: 0rem;
+	height: 0.6rem;
+	outline:none;
+	margin-top: 0.1rem;
+	color: #308EE3;
+}
+#all ul{
+	width: 7.5rem;
+}
+#all ul li{
+	width: 7.5rem;
+	list-style: none;
+	height: 0.8rem;
+	line-height: 0.8rem;
+	padding: 0rem 0.2rem;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	font-size: 0.28rem;
+	color: #999999;
+	border-bottom: 0.02rem solid #EEEEEE;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}

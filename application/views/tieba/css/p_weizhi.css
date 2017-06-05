@@ -1,0 +1,85 @@
+*{
+	margin: 0px auto;
+	padding: 0px;
+}
+#all{
+	width: 100%;
+	overflow-y:scroll;  
+    overflow-x:auto;
+}
+header{
+	height: 0.88rem;
+	line-height: 0.88rem;
+	text-align: center;
+	font-size: 0.36rem;
+	color: #ffffff;
+	width: 7.5rem;
+	background-color: #3090E2;
+}
+header a {
+	position: absolute;
+	left: 0rem;
+	top: 0rem;
+	height: 0.88rem;
+	line-height: 0.88rem;
+}
+header span{
+	height: 0.88rem;
+	width:0.68rem ;
+}
+header a img {
+	height: 0.44rem;
+	width: 0.24rem;
+	vertical-align: middle;
+	margin-left: 0.2rem;
+	margin-right:0.24rem ;
+}
+header div{
+	height: 0.88rem;
+	line-height: 0.88rem;
+	position: absolute;
+	top: 0rem;
+	right: 0rem;
+	width: 0.92rem;
+	padding-right: 0.2rem;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	text-align: center;
+}
+header div img{
+	height: 0.3rem;
+	width: 0.3rem;
+}
+#all ul{
+	width: 7.5rem;
+}
+#all ul li{
+	list-style: none;
+	height: 0.8rem;
+	line-height: 0.8rem;
+	font-size: 0.28rem;
+	border-bottom: 0.02rem solid #EEEEEE;
+	padding-left: 0.3rem;
+	padding-right: 0.3rem;
+	width: 7.5rem;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	display: flex;
+	align-items: center;
+}
+#all ul li img{
+	height: 0.3rem;
+	flex: 0.3;
+	display: none;
+}
+#all ul li div{
+	flex: 0.6;
+}
+#all ul li p{
+	flex: 6.0;
+	height: 0.76rem;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	margin: 0rem;
+}

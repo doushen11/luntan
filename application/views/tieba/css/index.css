@@ -1,0 +1,104 @@
+*{
+	margin: 0px auto;
+	padding: 0px;
+}
+#all{
+	width: 100%;
+	overflow-y:scroll;  
+    overflow-x:auto; 
+}
+a{
+	text-decoration: none;
+	color: #222222;
+}
+html,body {  
+    overflow:hidden;  
+    margin:0px;  
+    width:100%;  
+    height:100%;  
+}
+.select{
+	height: 0.88rem;
+	line-height: 0.88rem;
+	text-align: center;
+	font-size: 0.36rem;
+	color: #ffffff;
+	width: 7.5rem;
+	background-color: #3090E2;
+}
+.select div{
+	width: 3.6rem;
+	height: 0.6rem;
+	line-height: 0.6rem;
+	border: 0px solid blue;
+	border-radius: 0.2rem;
+	position: absolute;
+	top: 0.14rem;
+	left: 1.95rem;
+	display: flex;
+	background: #80B8EB;
+	padding: 0.1rem 0.2rem;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+.select div img{
+	width: 0.4rem;
+	height: 0.4rem;
+	margin: 0rem;
+	margin-right: 0.2rem;
+}
+.select div input{
+	background:#80B8EB;
+	height: 0.4rem;
+	width: 2.4rem;
+	margin: 0rem;
+	border: 0px solid #80B8EB;
+}
+.fenlei{
+	width: 7.5rem;
+}
+.fenlei .neirong{
+	width: 7.5rem;
+	height: 1.6rem;
+	display: flex;
+	border-bottom: 0.02rem solid #EEEEEE;
+}
+.fenlei .neirong .touxiang{
+	width: 1.2rem;
+	height: 1.2rem;
+	background-color: lawngreen;
+	border-radius: 0.1rem;
+	margin: 0.2rem;
+}
+.fenlei .neirong ul{
+	height: 1.4rem;
+	margin-left: 0px;
+}
+.fenlei .neirong ul li a{
+	text-decoration: none;
+	color: black;
+}
+.fenlei .neirong ul li{
+	list-style: none;
+	font-size: 0.36rem;
+	color: #222;
+	height: 0.6rem;
+	margin-top: 0.2rem;
+	box-sizing: border-box;
+}
+.fenlei .neirong ul :nth-child(2){
+	list-style: none;
+	font-size: 0.24rem;
+	color: #999;
+	margin-top: 0rem;
+	margin-bottom: 0.2rem;
+	padding-top: 0.3rem;
+}
+
+.fenlei  img{
+	height: 0.6rem;
+	width: 1.2rem;
+	margin: 0px;
+	margin-right: 0.2rem;
+	margin-top: 0.4rem;
+}

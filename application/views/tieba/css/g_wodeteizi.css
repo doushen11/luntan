@@ -1,0 +1,152 @@
+*{
+	margin: 0px auto;
+	padding: 0px;
+}
+#all{
+	width: 100%;
+	height:100%; 
+	overflow-y:scroll;  
+    overflow-x:auto; 
+}
+header{
+	height: 0.88rem;
+	line-height: 0.88rem;
+	text-align: center;
+	font-size: 0.36rem;
+	color: #ffffff;
+	width: 7.5rem;
+	background-color: #3090E2;
+}
+
+header a {
+	position: absolute;
+	left: 0rem;
+	top: 0rem;
+	height: 0.88rem;
+	line-height: 0.88rem;
+}
+header span{
+	height: 0.88rem;
+	width:0.68rem ;
+}
+header a img {
+	height: 0.44rem;
+	width: 0.24rem;
+	vertical-align: middle;
+	margin-left: 0.2rem;
+	margin-right:0.24rem ;
+}
+.beijingtu{
+	width: 7.5rem;
+	height: 1.72rem;
+}
+.beijingtu img{
+	width: 7.5rem;
+	height: 1.72rem;
+}
+.gerenxinxi{
+	display: flex;
+	position: relative;
+	bottom: 1.3rem;
+}
+.gerenxinxi li{
+	list-style: none;
+	font-size: 0.36rem;
+	color: #222222;
+	height: 1.61rem;
+	line-height: 1.61rem;
+	margin: 0px;
+	margin-left: 1.0rem;
+}
+.gerenxinxi :nth-child(2){
+	margin-left: 0.5rem;
+}
+.gerenxinxi li img{
+	width: 1.61rem;
+	height: 1.61rem;
+	border-radius: 50%;
+}
+.xunhuan {
+	width: 7.5rem;
+	margin-top: -1.3rem;
+}
+.xunhuan a{
+	text-decoration: none;
+	color: #222222;
+}
+.xunhuan  ul li a{
+	color: #308EE3;
+}
+
+.xunhuan div {
+	width: 7.5rem;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	border-bottom: 0.1rem solid #F7F7F7;
+	padding: 0.2rem;
+}
+
+.xunhuan p {
+	font-size: 0.36rem;
+}
+
+.xunhuan p img {
+	height: 0.36rem;
+	width: 0.45rem;
+}
+
+.xunhuan ul {
+	width: 7.1rem;
+	display: flex;
+	margin-top: 0.3rem;
+}
+
+.xunhuan ul li {
+	list-style: none;
+	font-size: 0.20rem;
+	color: #666666;
+	margin: 0px;
+	flex: 3;
+	text-align: right;
+	height: 0.38rem;
+	padding-top: 0.05rem;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+.xunhuan ul :nth-child(1) {
+	font-size: 0.26rem;
+	flex: 1;
+	text-align: left;
+	padding: 0px;
+}
+.xunhuan ul :nth-child(4) {
+	padding-top: 0.1rem;
+}
+.xunhuan ul :nth-child(5) {
+	padding-top: 0.1rem;
+}
+.xunhuan ul :nth-child(1) img {
+	height: 0.38rem;
+	width: 0.38rem;
+}
+
+.xunhuan ul :nth-child(2) {
+	font-size: 0.26rem;
+	text-align: left;
+	flex: 6;
+}
+
+.xunhuan ul :nth-child(2) span {
+	color: #308EE3;
+}
+
+.xunhuan ul li img {
+	height: 0.26rem;
+	width: 0.26rem;
+	vertical-align: text-bottom;
+}
+
+.xunhuan :last-child {
+	padding-bottom: 0rem;
+	border: 0px;
+}

@@ -1,0 +1,114 @@
+* {
+	margin: 0px auto;
+	padding: 0px;
+}
+
+#all {
+	width: 7.5rem;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+.nav_title {
+	height: 0.88rem;
+	line-height: 0.88rem;
+	text-align: center;
+	font-size: 0.36rem;
+	color: #ffffff;
+	width: 7.5rem;
+	background-color: #3090E2;
+}
+
+.nav_title a {
+	position: absolute;
+	left: 0rem;
+	top: 0rem;
+	height: 0.88rem;
+	line-height: 0.88rem;
+}
+.nav_title span{
+	height: 0.88rem;
+	width:0.68rem ;
+}
+.nav_title a img {
+	height: 0.44rem;
+	width: 0.24rem;
+	vertical-align: middle;
+	margin-left: 0.2rem;
+	margin-right:0.24rem ;
+}
+
+.gerenxinxi{
+	width: 7.5rem;
+	height: 2.2rem;
+	background-color: #3090E2;
+	margin-top: 0.1rem;
+	display: flex;
+	align-content: center;
+	box-sizing: border-box;
+	-webkit-box-sizing:border-box ;
+	padding-top: 0.4rem;
+}
+.gerenxinxi .touxiang{
+	height: 1.4rem;
+	width: 1.4rem;
+	border-radius: 50%;
+	margin-right: 0.5rem;
+}
+.gerenxinxi ul{
+	height: 1.4rem;
+	margin: 0px;
+}
+.gerenxinxi ul li{
+	list-style: none;
+	height: 0.7rem;
+	font-size: 0.24rem;
+	text-align: center;
+}
+.gerenxinxi ul :first-child{
+	list-style: none;
+	font-size: 0.36rem;
+	line-height: 0.7rem;
+}
+.gerenxinxi .erweima{
+	height: 0.8rem;
+	width: 0.8rem;
+	vertical-align: bottom;
+	border-radius: 0rem;
+	margin-top: 0.15rem;
+	margin-left: 0.5rem;
+}
+.tousu_reason{
+	width: 7.5rem;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	padding: 0.5rem 0.8rem;
+	font-size: 0px;
+}
+.tousu_reason li{
+	list-style: none;
+	width: 2.85rem;
+	color: #3090E2;
+	font-size: 0.36rem;
+	display: inline-block;
+	text-align: center;
+	height: 0.6rem;
+	line-height: 0.6rem;
+}
+.tousu_reason li img{
+	width: 0.3rem;
+	height: 0.3rem;
+	margin-top: 0.1rem;
+}
+footer{
+	height: 1.0rem;
+	line-height: 1.0rem;
+	text-align: center;
+	width: 7.5rem;
+	background-color: #3090E2;
+	color: #FFFFFF;
+	font-size: 0.36rem;
+	position: absolute;
+	bottom: 0px;
+}

@@ -1,0 +1,291 @@
+* {
+	margin: 0px auto;
+	padding: 0px;
+}
+
+#all {
+	width: 7.5rem;
+	height:100%; 
+	overflow-y:scroll;  
+    overflow-x:auto; 
+}
+html,body {  
+    overflow:hidden;  
+    margin:0px;  
+    width:100%;  
+    height:100%;  
+}
+.nav_title {
+	height: 0.88rem;
+	line-height: 0.88rem;
+	text-align: center;
+	font-size: 0.36rem;
+	color: #ffffff;
+	width: 7.5rem;
+	background-color: #3090E2;
+	z-index: 2008;
+}
+
+.nav_title a {
+	position: absolute;
+	left: 0rem;
+	top: 0rem;
+	height: 0.88rem;
+	line-height: 0.88rem;
+}
+.nav_title span{
+	height: 0.88rem;
+	width:0.68rem ;
+}
+.nav_title a img {
+	height: 0.44rem;
+	width: 0.24rem;
+	vertical-align: middle;
+	margin-left: 0.2rem;
+	margin-right:0.24rem ;
+}
+.zhuti{
+	width: 7.5rem;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	padding: 0.2rem 0.2rem 0rem 0.2rem;
+}
+.zhuti ul{
+	width: 100%;
+	display: flex;
+	margin: 0rem;
+}
+.zhuti ul li{
+	list-style: none;
+	flex: 1;
+	font-size: 0.2rem;
+	color: #666666;
+	text-align: right;
+	padding-top: 0.13rem;
+}
+.zhuti ul :first-child{
+	flex: 2;
+	font-size: 0.36rem;
+	color: #22222;
+	text-align: left;
+	padding: 0rem;
+}
+.zhuti ul li img{
+	width: 0.26rem;
+	height: 0.26rem;
+	vertical-align: bottom;
+}
+.zhuti p{
+	font-size: 0.26rem;
+	color: #999999;
+	margin-top: 0.2rem;
+}
+.tu_xiangjie{
+	width: 100%;
+	padding-top: 0.1rem;
+	margin-top: 0.1rem;
+	padding-bottom: 0.3rem;
+	border-bottom: 1px solid #999999;
+	border-top: 1px solid #999999;
+}
+.tu_xiangjie img{
+	width: 7.1rem;
+	height: 4.2rem;
+}
+.tu_xiangjie .xiangjie{
+	font-size: 0.26rem;
+	color: #999999;
+	line-height: 160%;
+}
+.tu_xiangjie p{
+	color: #999999;
+	font-size: 0.26rem;
+	margin-top: 0.88rem;
+	text-align: right;
+	padding-right: 0.6rem;
+}
+.tu_xiangjie p img{
+	height: 0.26rem;
+	width: 0.26rem;
+	vertical-align: sub;
+}
+.all_pinglun{
+	width: 7.5rem;
+}
+/*一楼部分全部代码*/
+.pinglunneirong{
+	width: 7.5rem;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	margin: 0rem;
+	font-size: 0.26rem;
+	border-bottom: 1px solid #999999;
+}
+.pinglunneirong .hezi{
+/*	display: flex;*/
+	width: 7.1rem;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	font-size: 0rem;
+	margin: 0.3rem 0.2rem 0rem 0.2rem;
+}
+.pinglunneirong img{
+	height: 0.72rem;
+	width: 0.72rem;
+	/*flex: 1;*/
+	display: inline-block;
+	border-radius: 50%;
+}
+.pinglunneirong ul{
+	/*flex: 8;*/
+	display: inline-block;
+	width: 5.7rem;
+	font-size: 0.26rem;
+}
+.pinglunneirong li{
+	list-style: none;
+	font-size: 0.26rem;
+	color: #308ee3;
+	padding-left: 0.2rem;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	width: 5.9rem;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	text-align: left;
+}
+.pinglunneirong ul :nth-child(1){
+	margin-top: -0.08rem;
+}
+.pinglunneirong ul :nth-child(2){
+	color: #999999;
+	margin-top: 0.12rem;
+}
+.pinglunneirong .louceng{
+	color: #222222;
+	/*flex: 1;*/
+	display: inline-block;
+	width: 0.68rem;
+	font-size: 0.26rem;
+	text-align:right;
+	float: right;
+}
+.pinglunneirong p{
+	display: block;
+	color: #999999;
+	font-size: 0.26rem;
+	text-align: right;
+	padding-right: 0.6rem;
+	padding-bottom: 0.2rem;
+	margin: 0.2rem 0.2rem 0rem 0.2rem;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+.pinglunneirong p img{
+	height: 0.26rem;
+	width: 0.26rem;
+	vertical-align: sub;
+}
+
+/*跟一楼有关部分全部代码*/
+.erloupinglun{
+	width: 7.5rem;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	margin: 0rem;
+	font-size: 0.26rem;
+}
+.erloupinglun .erlou_hezi{
+	width: 7.5rem;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	padding: 0rem 0rem 0rem 0.2rem;
+	font-size: 0rem;
+}
+.erloupinglun img{
+	height: 0.72rem;
+	width: 0.72rem;
+	flex: 1;
+	border-radius: 50%;
+}
+.erloupinglun ul{
+	flex: 12;
+	width: 6.58rem;
+	font-size: 0.26rem;
+	border-top: 1px solid #999999;
+	padding-top: 0.2rem;
+}
+.erloupinglun li{
+	list-style: none;
+	color: #308ee3;
+	padding-left: 0.2rem;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	width: 5.9rem;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	text-align: left;
+	margin: 0px;
+}
+.erloupinglun ul :nth-child(1){
+	margin-top: -0.08rem;
+}
+.erloupinglun ul :nth-child(2){
+	color: #999999;
+	margin-top: 0.12rem;
+}
+.erloupinglun p{
+	display: block;
+	color: #999999;
+	font-size: 0.26rem;
+	text-align: right;
+	padding-right: 0.8rem;
+	padding-bottom: 0.2rem;
+	margin: 0.2rem 0rem 0rem 0.2rem;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+.erloupinglun p img{
+	height: 0.26rem;
+	width: 0.26rem;
+}
+footer {
+	width: 7.5rem;
+	height: 0.92rem;
+	line-height: 0.92rem;
+	font-size: 0.4rem;
+	margin-top: 0.2rem;
+	position: absolute;
+	bottom: 0rem;
+	left: 0rem;
+	background-color: #3090E2;
+	color: white;
+	text-align: center;
+	z-index:2008; 
+}
+
+footer div{
+	width: 7.5rem;
+	height: 0.92rem;
+	display: none;
+	background-color: #F7F7F7;
+}
+footer div span{
+	flex: 1;
+}
+footer div img{
+	width: 0.5rem;
+	height: 0.5rem;
+	vertical-align: middle;
+}
+footer div input{
+	flex:6;
+	width: 0.5rem;
+	margin: 0rem;
+	height: 0.6rem;
+	border-radius: 0.1rem;
+	font-size: 0.24rem;
+	margin-top: 0.16rem;
+}

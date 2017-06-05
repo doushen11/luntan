@@ -1,0 +1,264 @@
+*{
+	margin: 0px auto;
+	padding: 0px;
+}
+body{
+	background-color: #F7F7F7;
+}
+#all{
+	width: 100%;
+}
+header{
+	height: 0.88rem;
+	line-height: 0.88rem;
+	text-align: center;
+	font-size: 0.36rem;
+	color: #ffffff;
+	width: 7.5rem;
+	background-color: #3090E2;
+}
+header a {
+	position: absolute;
+	left: 0rem;
+	top: 0rem;
+	height: 0.88rem;
+	line-height: 0.88rem;
+}
+header span{
+	height: 0.88rem;
+	width:0.68rem ;
+}
+header a img {
+	height: 0.44rem;
+	width: 0.24rem;
+	vertical-align: middle;
+	margin-left: 0.2rem;
+	margin-right:0.24rem ;
+}
+header div{
+	height: 0.88rem;
+	line-height: 0.88rem;
+	position: absolute;
+	top: 0rem;
+	right: 0rem;
+	width: 0.92rem;
+	padding-right: 0.2rem;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	text-align: center;
+}
+.xiahuaxian{
+	height: 0.2rem;
+	width: 7.5rem;
+	background-color:#F7F7F7 ;
+}
+.title_neirong{
+	height: 0.6rem;
+	line-height: 0.6rem;
+	width: 7.5rem;
+	background-color: white;
+	font-size: 0.36rem;
+	color: #999999;
+	padding-left: 0.2rem;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+.fasongneirong{
+	width: 7.5rem;
+	height: 3.7rem;
+	padding:0.1rem 0.2rem 0.3rem 0.2rem;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	background-color: #FFFFFF;
+}
+.fasongneirong .neirong{
+	width: 7.1rem;
+	height: 1.38rem;
+	float: left;
+	font-size: 0.36rem;
+	color: #999999;
+	border: 0px solid red;
+	resize:none;
+}
+.fasongneirong img{
+	width: 1.6rem;
+	height: 1.28rem;
+}
+.dangqian_address{
+	width: 7.3rem;
+	height: 0.7rem;
+	line-height: 0.7rem;
+	background-color: #FFFFFF;
+	font-size: 28px;
+	color: #999999;
+	padding-right: 0.2rem;
+	border-top: 1px solid #999999;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+.dangqian_address span{
+	width: 6.0rem;
+	display: inline-block;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.dangqian_address img{
+	width: 0.24rem;
+	height: 0.44rem;
+	float: right;
+	margin-top: 0.13rem;
+}
+.quanxian{
+	width: 7.5rem;
+	background-color: #FFFFFF;
+	padding-left: 0.2rem;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+.quanxian li{
+	list-style: none;
+	font-size: 28px;
+	color: #999999;
+	padding-right: 0.2rem;
+	height: 0.7rem;
+	line-height: 0.7rem;
+}
+.quanxian li img{
+	width: 0.24rem;
+	height: 0.44rem;
+	float: right;
+	margin-top: 0.13rem;
+}
+.quanxian li span{
+	display: inline-block;
+	float: right;
+	margin-right: 0.2rem;
+}
+.tixing{
+	border-top: 1px solid #999999;
+}
+/*一级弹窗地区代码*/
+#box {
+	display: none;
+	width: 7.5rem;
+	position: absolute;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0, 0, 0, 0.2);
+}
+#box .bottom_fenlei {
+	position: absolute;
+	bottom: 0;
+	width: 7.5rem;
+	background: white;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+#box .sure {
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	margin: 0rem 0.2rem;
+	width: 7.1rem;
+	height: 0.8rem;
+	line-height: 0.8rem;
+	display: flex;
+	font-size: 0.6rem;
+	border-bottom: 1px solid black;
+	font-size: 0.36rem;
+}
+#box .sure :nth-child(1) {
+	margin-left: 0px;
+	color: #ff37c4;
+}
+#box .sure :nth-child(2){
+	margin-right: 0px;
+	color: #439bec;
+}
+#box .diqu_one {
+	font-size: 0px;
+	width: 7.5rem;
+	padding: 0rem 0rem 0.8rem 0rem;
+}
+
+#box .diqu_one li {
+	list-style: none;
+	font-size: 0.36rem;
+	text-align: center;
+	margin-top: 0.2rem;
+	color: #222222;
+	display: inline-block;
+	width: 1.5rem;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+#box .diqu_one :first-child{
+	color: #44a1fb;
+}
+/*二级城市地区弹窗内容*/
+#box .bottom_fenlei_two{
+	position: absolute;
+	bottom: 0;
+	width: 7.5rem;
+	background: white;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	display: none;
+}
+#box .diqu_two {
+	font-size: 0px;
+	width: 7.5rem;
+	padding: 0rem 0rem 0.8rem 0rem;
+}
+
+#box .diqu_two li {
+	list-style: none;
+	font-size: 0.36rem;
+	text-align: center;
+	margin-top: 0.2rem;
+	color: #222222;
+	display: inline-block;
+	width: 1.5rem;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+#box .diqu_two :first-child{
+	color: #44a1fb;
+}
+/*三级城市地区弹窗内容*/
+#box .bottom_fenlei_three{
+	position: absolute;
+	bottom: 0;
+	width: 7.5rem;
+	background: white;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	display: none;
+}
+#box .diqu_three {
+	font-size: 0px;
+	width: 7.5rem;
+	padding: 0rem 0rem 0.8rem 0rem;
+}
+
+#box .diqu_three li {
+	list-style: none;
+	font-size: 0.36rem;
+	text-align: center;
+	margin-top: 0.2rem;
+	color: #222222;
+	display: inline-block;
+	width: 1.5rem;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+#box .diqu_three :first-child{
+	color: #44a1fb;
+}

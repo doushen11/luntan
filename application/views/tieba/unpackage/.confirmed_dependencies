@@ -1,0 +1,112 @@
+{
+	"index.html": {
+		"resources": [
+			"css/index.css",
+			"js/jquery-1.8.3.min.js",
+			"img/sousuo2@2x2.png",
+			"mouyiluntan.html",
+			"img/icon_quguan@2x.png",
+			"js/rem.js",
+			"js/index.js",
+			"sousuo.html"
+		],
+		"refer": [
+			"mouyiluntan.html",
+			"sousuo.html"
+		]
+	},
+	"mouyiluntan.html": {
+		"resources": [
+			"js/mouyiluntan.js",
+			"img/icon_fanhui@2x.png",
+			"css/mouyiluntan.css",
+			"img/icon_pinglun@2x.png",
+			"img/icon_liulan@2x.png",
+			"img/icon_xiangshang-copy@3x.png",
+			"img/tab_youtu@2x.png",
+			"img/icon_wode-@3x.png",
+			"tiezixiangqing.html",
+			"index.html",
+			"zuozhe.html",
+			"img/icon_quguan@2x.png",
+			"fatie.html",
+			"img/icon_jing@3x.png"
+		],
+		"refer": [
+			"tiezixiangqing.html",
+			"index.html",
+			"zuozhe.html",
+			"fatie.html"
+		]
+	},
+	"tiezixiangqing.html": {
+		"resources": [
+			"js/tiezixiangqing.js",
+			"img/icon_xiangce@3x.png",
+			"css/tiezixiangqing.css",
+			"mouyiluntan.html",
+			"img/btn_tianjiaxiangceneirong@2x.png",
+			"img/picture_xiangqing.png",
+			"img/izon_fasong@2x.png"
+		],
+		"refer": [
+			"mouyiluntan.html"
+		]
+	},
+	"zuozhe.html": {
+		"resources": [
+			"img/icon_rweima@2x.png",
+			"css/zuozhe.css",
+			"js/zuozhe.js",
+			"img/picture_xiangqing.png",
+			"tiezixiangqing.html",
+			"mouyiluntan.html",
+			"tousu.html",
+			"img/icon_pinglun@2x.png",
+			"img/icon_liulan@2x.png",
+			"img/tab_youtu@2x.png"
+		],
+		"refer": [
+			"tiezixiangqing.html",
+			"mouyiluntan.html",
+			"tousu.html"
+		]
+	},
+	"tousu.html": {
+		"resources": [
+			"js/tousu.js",
+			"css/tousu.css",
+			"zuozhe.html",
+			"img/btn_duoxuan.@3x.png"
+		],
+		"refer": [
+			"zuozhe.html"
+		]
+	},
+	"sousuo.html": {
+		"resources": [
+			"css/sousuo.css",
+			"js/sousuo.js",
+			"img/icon_lajishanchu@2x.png",
+			"img/icon_fanhui@2x.png",
+			"sousuo.html",
+			"index.html"
+		],
+		"refer": [
+			"sousuo.html",
+			"index.html"
+		]
+	},
+	"fatie.html": {
+		"resources": [
+			"index.html",
+			"img/icon_jinru@2x.png",
+			"img/icon_xiangce@3x.png",
+			"js/fatie.js",
+			"css/fatie.css"
+		],
+		"refer": [
+			"index.html"
+		]
+	}
+}

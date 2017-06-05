@@ -1,0 +1,93 @@
+*{
+	margin: 0px auto;
+	padding: 0px;
+}
+#all{
+	width: 100%;
+}
+header{
+	width: 100%;
+	height: 0.88rem;
+	line-height: 0.88rem;
+	background-color: #3090E2;
+	font-size: 0.36rem;
+	color: #FFFFFF;
+	text-align: center;
+}
+.beijingtu{
+	width: 7.5rem;
+	height: 2.8rem;
+	background-color: #F7F7F7;
+}
+.beijingtu img{
+	width: 7.5rem;
+	height:1.72rem ;
+}
+.beijingtu .yiciul{
+	width: 7.5rem;
+	height: 1.4rem;
+	display: flex;
+	position: relative;
+	bottom: 1.6rem;
+}
+.beijingtu .yiciul li{
+	list-style: none;
+	height: 1.4rem;
+	line-height: 1.4rem;
+	text-align: center;
+}
+.beijingtu .erciul{
+	margin: 0rem;
+}
+.beijingtu .erciul li{
+	font-size: 0.24rem;
+	height: 0.7rem;
+	line-height: 0.7rem;
+	color: #308EE3;
+	text-align: center;
+}
+.beijingtu .erciul ul :first-child{
+	font-size: 0.36rem;
+	color: #FFFFFF;
+}
+.beijingtu ul li img{
+	height: 1.6rem;
+	width: 1.6rem;
+	border-radius: 50%;
+}
+.beijingtu .erweima{
+	height: 0.8rem;
+	width: 0.8rem;
+	vertical-align: middle;
+	border-radius: 0%;
+	margin-bottom: 0.4rem;
+}
+.gongneng{
+	width: 7.5rem;
+	margin-top: 0.3rem;
+}
+.gongneng li{
+	list-style: none;
+	height: 0.7rem;
+	line-height: 0.7rem;
+	background-color: #f5f5f5;
+	color: #308EE3;
+	font-size: 0.36rem;
+	border-bottom: 1px solid #b6b6b6;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	padding-left: 0.2rem;
+	padding-right: 0.2rem;
+}
+.gongneng  a{
+	text-decoration: none;
+}
+.gongneng li img{
+	width: 0.24rem;
+	height: 0.44rem;
+	float: right;
+	margin-top: 0.13rem;
+}
+.shezhi{
+	margin-top: 0.3rem;
+}

@@ -1,0 +1,148 @@
+*{
+	margin: 0px auto;
+	padding: 0px;
+}
+#all{
+	width: 100%;
+	overflow-y:scroll;  
+    overflow-x:auto; 
+}
+html,body {  
+    margin:0px;  
+    width:100%;  
+    height:100%;  
+}
+header{
+	height: 0.88rem;
+	line-height: 0.88rem;
+	text-align: center;
+	font-size: 0.36rem;
+	color: #ffffff;
+	width: 7.5rem;
+	background-color: #3090E2;
+}
+header a {
+	position: absolute;
+	left: 0rem;
+	top: 0rem;
+	height: 0.88rem;
+	line-height: 0.88rem;
+}
+header span{
+	height: 0.88rem;
+	width:0.68rem ;
+}
+header a img {
+	height: 0.44rem;
+	width: 0.24rem;
+	vertical-align: middle;
+	margin-left: 0.2rem;
+	margin-right:0.24rem ;
+}
+.beijingtu{
+	width: 7.5rem;
+	height: 1.72rem;
+}
+.beijingtu img{
+	width: 7.5rem;
+	height: 1.72rem;
+}
+.gerenxinxi{
+	display: flex;
+	position: relative;
+	bottom: 1.3rem;
+}
+.gerenxinxi li{
+	list-style: none;
+	font-size: 0.36rem;
+	color: #222222;
+	height: 1.61rem;
+	line-height: 1.61rem;
+	margin: 0px;
+	margin-left: 1.0rem;
+}
+.gerenxinxi :nth-child(2){
+	margin-left: 0.5rem;
+}
+.gerenxinxi li img{
+	width: 1.61rem;
+	height: 1.61rem;
+	border-radius: 50%;
+}
+.my_all_xiangce{
+	width: 7.5rem;
+	margin-top: -1.3rem;
+}
+.fabiao{
+	width: 7.5rem;
+	padding: 0rem 0.2rem;
+	font-size: 0rem;
+	display: flex;
+	margin-top: 0.3rem;
+	margin-bottom: 0.15rem;
+}
+.fabiao .today{
+	font-size: 0.36rem;
+	color: #222222;
+	width: 1.1rem;
+}
+.fabiao .fa_img{
+	flex: 6;
+}
+.fabiao .fa_img img{
+	height: 1.0rem;
+	width: 1.2rem;
+}
+.xiangce{
+	width: 7.5rem;
+	padding: 0rem 0.2rem;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	display: flex;
+	margin-top: 0.15rem;
+}
+.xiangce_time{
+	width: 1.1rem;
+	flex: 1.1;
+	font-size: 0.36rem;
+	color: #222222;
+	padding-top: 0.1rem;
+}
+.xiangce_time span{
+	font-size: 0.24rem;
+}
+.my_all_xiangce .xiangce .tong_neirong{
+	flex: 6;
+}
+.xiangce_neirong{
+	height: 0.8rem;
+	width: 6.0rem;
+	display: block;
+	padding-right: 0.3rem;
+	margin-top: 0.1rem;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	font-size: 0.24rem;
+	background-color: #E2E0E0;
+	color: #222222;
+	display: flex;
+}
+.xiangce_neirong img{
+	height: 0.6rem;
+	width: 0.6rem;
+	margin: 0.1rem 0.2rem 0rem 0.1rem;
+	flex: 1;
+}
+.xiangce_neirong div{
+	width:4.8rem;
+	height: 0.8rem;
+	line-height: 130%;
+	flex: 8;	
+	display: flex;
+	align-items: center;
+}
+.xiangce_neirong div p{	
+	width: 4.8rem;
+	max-height: 0.6rem;
+	overflow: hidden;
+}

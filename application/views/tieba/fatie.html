@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<title></title>
+	</head>
+	<script type="text/javascript" src="js/jquery-1.8.3.min.js" ></script>
+    <script type="text/javascript" src="js/rem.js" ></script>
+    <link rel="stylesheet" href="css/fatie.css" />
+	<body>
+		<div id="all">
+			<div class="nav_title">
+				<a href="index.html"><span><img src="img/icon_fanhui@2x.png"/></span></a>  发帖 
+			</div>
+			
+			<div class="xiahuaxian"></div>
+			
+			<div class="title_neirong">
+				<input placeholder="输入标题,14字以内" />
+			</div>
+			
+			<div class="xiahuaxian"></div>
+			
+			<div class="fasongneirong">
+				<textarea class="neirong" placeholder="输入内容"></textarea>
+				<img src="img/icon_xiangce@3x.png" />
+			</div>
+			
+			<ul class="diqu">
+				<li>当前地址&nbsp;:&nbsp;&nbsp;</li>
+				<li onclick="diquOne()">北京市</li>
+				<li>&nbsp;<img src="img/icon_jinru@2x.png" />&nbsp;</li>
+				<li onclick="diquTwo()">丰台区</li>
+				<li>&nbsp;<img src="img/icon_jinru@2x.png" />&nbsp;</li>
+				<li onclick="diquThree()">卢沟桥</li>
+			</ul>
+
+			<ul class="mukuai">
+				<li>当前模块&nbsp;:&nbsp;&nbsp;</li>
+				<li onclick="mokuaiOne()">铁甲论坛</li>
+				<li>&nbsp;<img src="img/icon_jinru@2x.png" />&nbsp;</li>
+				<li onclick="mokuaiTwo()">二手设备</li>
+			</ul>
+			
+			<div class="posi_fatie">
+				发帖
+			</div>
+		</div>
+		
+		<div id="box">
+			<div class="bottom_fenlei">
+				<div class="sure">
+					<div class="btn_false">取消</div>
+			        <div class="btn_true">确定</div>
+			   </div> 
+			   	<ul class="diqu_one">
+			   		<li>全部</li>
+			    	<li>北京1</li>
+			    	<li>北京</li>
+			    	<li>北京</li>
+			    	<li>北京</li>
+			    	<li>北京</li>
+			    	<li>北京</li>
+			    	<li>北京</li>
+			    	<li>北京</li>
+			    	<li>北京</li>
+			    	<li>北京</li>
+			    	<li>北京</li>
+			    	<li>北京</li>
+			    	<li>北京</li>
+			   	</ul>
+			</div>
+			
+			<div class="bottom_fenlei_two">
+				<div class="sure">
+					<div class="btn_reset">重置</div>
+			        <div class="btn_true_two">确定</div>
+			   </div> 
+			   	<ul class="diqu_two">
+			   		<li>全部</li>
+			    	<li>北京2</li>
+			    	<li>北京</li>
+			    	<li>北京</li>
+			    	<li>北京</li>
+			    	<li>北京</li>
+			    	<li>北京</li>
+			    	<li>北京</li>
+			    	<li>北京</li>
+			    	<li>北京</li>
+			    	<li>北京</li>
+			    	<li>北京</li>
+			    	<li>北京</li>
+			    	<li>北京</li>
+			   	</ul>
+			</div>
+			
+			<div class="bottom_fenlei_three">
+				<div class="sure">
+					<div class="btn_reset_three">重置</div>
+			        <div class="btn_true_three">确定</div>
+			   </div> 
+			   	<ul class="diqu_three">
+			   		<li>全部</li>
+			    	<li>北京3</li>
+			    	<li>北京</li>
+			    	<li>北京</li>
+			    	<li>北京</li>
+			    	<li>北京</li>
+			    	<li>北京</li>
+			    	<li>北京</li>
+			    	<li>北京</li>
+			    	<li>北京</li>
+			    	<li>北京</li>
+			    	<li>北京</li>
+			    	<li>北京</li>
+			    	<li>北京</li>
+			   	</ul>
+			</div>
+		</div>
+		
+		<div id="box_mokuai">
+			<div class="bottom_mokuai_fenlei">
+				<div class="sure_mokuai">
+						<div class="btn_false_mokuai">取消</div>
+				        <div class="btn_true_mokuai">确定</div>
+				</div>
+				<ul class="mokuai">
+				   	<li>全部1</li>
+				   	<li>维修改造</li>
+				   	<li>试用报告</li>
+				    <li>操作技巧</li>
+				</ul>
+			</div>
+			
+			<div class="bottom_mokuai_fenlei_two">
+				<div class="sure_mokuai">
+						<div class="btn_fanhui_mokuai">返回</div>
+				        <div class="btn_true_mokuai_two">确定</div>
+				</div>
+				<ul class="mokuai_two">
+				   	<li>全部2</li>
+				   	<li>维修改造</li>
+				   	<li>试用报告</li>
+				    <li>操作技巧</li>
+				</ul>
+			</div>
+		</div>
+	</body>
+	<script type="text/javascript" src="js/fatie.js" ></script>
+</html>

@@ -1,0 +1,156 @@
+*{
+	margin: 0px auto;
+	padding: 0px;
+}
+body{
+	background-color: #F7F7F7;
+}
+a{
+	text-decoration: none;
+}
+#all{
+	width: 100%;
+	overflow-y:scroll;  
+    overflow-x:auto; 
+}
+header{
+	height: 0.88rem;
+	line-height: 0.88rem;
+	text-align: center;
+	font-size: 0.36rem;
+	color: #ffffff;
+	width: 7.5rem;
+	background-color: #3090E2;
+}
+header a {
+	position: absolute;
+	left: 0rem;
+	top: 0rem;
+	height: 0.88rem;
+	line-height: 0.88rem;
+}
+header span{
+	height: 0.88rem;
+	width:0.68rem ;
+}
+header a img {
+	height: 0.44rem;
+	width: 0.24rem;
+	vertical-align: middle;
+	margin-left: 0.2rem;
+	margin-right:0.24rem ;
+}
+header div{
+	height: 0.88rem;
+	line-height: 0.88rem;
+	position: absolute;
+	top: 0rem;
+	right: 0rem;
+	width: 0.92rem;
+	padding-right: 0.2rem;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	text-align: center;
+}
+header div a{
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 0.24rem;
+}
+.shuruneirong{
+	width: 7.5rem;
+	height: 2.5rem;
+}
+textarea{
+	resize:none;
+	width: 7.5rem;
+	height: 2.5rem;
+	border: 0rem;
+	font-size: 0.36rem;
+	color: #999999;
+	padding: 0.1rem 0.2rem;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+.xiahuaxian{
+	height: 0.2rem;
+	width: 7.5rem;
+	background-color: #F7F7F7;
+}
+.chooseImg{
+	width: 7.5rem;
+	background-color: #FFFFFF;
+	padding: 0.2rem;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	font-size: 0.24rem;
+	color: #999999;
+}
+.imgNeiRong{
+	width: 7.1rem;
+	margin-top: 0.3rem;
+}
+.imgNeiRong img{
+	width: 1.5rem;
+	height: 1.5rem;
+}
+.choose{
+	width: 7.5rem;
+	background-color: #FFFFFF;
+	padding-bottom: 0.5rem;
+}
+.choose li{
+	list-style: none;
+	width: 7.5rem;
+	padding:0.2rem 0.2rem;
+	border-bottom: 0.02rem solid #F1F1F1;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	font-size: 0.24rem;
+	color:#222222;
+	display: flex;
+}
+.choose li span{
+	padding-top: 0.06rem;
+	margin: 0rem;
+}
+.choose li img{
+	height: 0.4rem;
+	width: 0.4rem;
+	vertical-align: middle;
+	margin: 0rem;
+	margin-right: 0.2rem;
+}
+.choose li div{
+	float: right;
+	margin-right: 0.2rem;
+	color: #999999;
+}
+.tixing_who{
+	min-height: 0.8rem;
+}
+.tixing_who div{
+	margin-right: 0.2rem;
+	width: 4.2rem;
+	margin-top: -0.1rem;
+}
+.tixing_who div img{
+	height: 0.7rem;
+	width: 0.7rem;
+	margin-right: 0.1rem;
+	margin-top: 0.1rem;
+}
+.suozaiweizhi{
+	width:5.5rem;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.who_can_see{
+	width:5.0rem;
+	text-align: right;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	padding-top: 0.06rem;
+}
