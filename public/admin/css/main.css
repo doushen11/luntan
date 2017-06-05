@@ -1,0 +1,222 @@
+@CHARSET "UTF-8";
+.info-edit {
+    width: 500px;
+    margin: auto;
+    margin-top: 20px;
+}
+.info-edit .info-block {
+    padding-top: 10px;
+    display: block;
+}
+
+.info-edit .info-block .tip{
+    margin-left: 95px;
+}
+
+.info-edit .info-block span {
+    display: inline-block;
+    width: 95px;
+}
+
+.info-edit .info-block input {
+    width: 250px;
+    height: 30px;
+}
+
+.info-edit .info-block input[type="checkbox"] {
+    width: 15px;
+    position: relative;
+    top: 11px;
+}
+
+.info-edit .info-block select,
+.info-edit .info-block .price {
+    width: 215px;
+}
+
+.info-edit .info-block textarea {
+    width: 250px;
+}
+
+.info-edit .info-block input[type="file"] {
+    display:inline-block;
+}
+
+.info-edit .info-block .input-group {
+    display: inline-block;
+    height: 22px;
+}
+
+.info-edit .info-block .input-group input {
+    width: 190px;
+    height: 25px;
+    margin-right: -2px;
+}
+
+.info-edit .info-block .input-group span {
+    height: 25px;
+    margin-left: -3px;
+}
+
+.info-edit .info-block .form-control {
+    width: 140px;
+}
+
+.info-edit .info-block .input-group-addon {
+    width: 30px;
+}
+
+.info-edit .info-block select {
+    width: 250px;
+    height: 25px;
+}
+
+.info-edit .submit-block {
+    margin-top: 22px;
+    margin-left: 55px;
+}
+
+.info-edit .submit-block #tmp-calculation-submit {
+    margin-left: 50px;
+}
+
+.info-edit .submit-block .btn {
+    width: 80px;
+    height: 30px;
+    line-height: 13px;
+}
+
+.info-edit .info-block .error-info {
+    color: red;
+}
+
+.info-edit .info-block img {
+    max-width: 150px;
+    height: 150px;
+    margin-right: 18px;
+}
+
+.category-info .item-info {
+    display:inline-block;
+    margin-right: 50px;
+}
+
+.search .input-group {
+    width: 218px;
+}
+
+.search .search-date, 
+.search .input-group,
+.search .form-control,
+.search .input-group-addon {
+    display: inline-block;
+}
+.search .form-control  {
+    margin-right: -2px;
+}
+.search .input-group-addon {
+    margin-left: -4px;
+    padding-right: 20px;
+}
+
+.search .date .form-control {
+    width: 150px;
+    height: 28px;
+}
+
+.search .mobile,
+.search .nickname,
+.search .real-name,
+.search .license-number,
+.search .car-number,
+.search .line-start,
+.search .line-end,
+.search select {
+    width: 150px;
+    height: 25px;
+    margin-left: 14px;
+    margin-bottom: 5px;
+}
+
+.info-edit .submit-single {
+    margin-left: 94px;
+}
+
+.driver-edit .info-block input[type="file"] {
+    display: inline-block;
+    width: 166px;
+}
+
+.driver-edit .info-block .file_upload {
+    margin-left: 95px;
+}
+
+.info-setting {
+    width: 700px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.info-setting .setting-block .setting-tip {
+    display: inline-block;
+    width: 200px;
+}
+
+.info-edit .info-block .carousel-block .item {
+    display: inline-block;
+    float: left;
+    width: 120px;
+    height: 80px;
+    margin-bottom: 20px;
+}
+
+.info-edit .info-block .carousel-block img {
+    width: 100%;
+    height: 100%;
+}
+
+.info-block .carousel-block .delete-img {
+    position: relative;
+    left: 48px;
+    cursor: pointer;
+}
+
+.right_cont .agreement-submit-block {
+    width: 200px;
+    margin: 20px auto;
+}
+
+.right_cont .luntan-block {
+    display: inline-block;
+    width: 150px;
+    height: 100px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #696;
+    padding-top:35px;
+    text-align: center;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    -webkit-box-shadow: #666 0px 0px 10px;
+    -moz-box-shadow: #666 0px 0px 10px;
+    box-shadow: #666 0px 0px 10px;
+    background: #ffefd0;
+    behavior: url(/PIE.htc);
+}
+
+.right_cont .luntan-block .block-remove {
+    display: none;
+    float: left;
+    top: 25px;
+    left: 130px;
+    cursor: pointer;
+}
+
+.right_cont .luntan-block .block-title {
+    cursor: pointer;
+}
+
+.right_cont .luntan-block .block-title {
+    cursor: pointer;
+}

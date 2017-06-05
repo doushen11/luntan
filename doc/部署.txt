@@ -1,0 +1,34 @@
+linux：
+
+119.23.149.45
+zjtd@890
+
+/phpstudy/www
+
+上传：
+d:
+cd D:\putty
+pscp car.zip root@119.23.149.45:/var/www/html
+pscp cz_yueche.sql root@119.23.149.45:/var/www/html
+
+修改权限
+chmod 777 /var/www/html/luntan/public/sess_save_path/
+chmod 777 /var/www/html/luntan/system/libraries/Session/drivers/Session_files_driver.php
+chmod -R 777 /var/www/html/luntan/public/
+chmod -R 777 /var/www/html/luntan/application/logs/
+chmod -R 777 /var/www/html/luntan/logs/
+
+
+修改php.ini ，更改上传文件的大小限制
+max_execution_time = 600
+max_input_time = 600
+memory_limit = 32m
+file_uploads = on
+upload_tmp_dir = /tmp  //文件上传至服务器上存储临时文件的地方，如果没指定就会用系统默认的临时文件夹（本地未指定）
+upload_max_filesize = 32m
+post_max_size = 32m
+
+
+后台地址：
+http://www.gongxin.com/index.php/admin/luntan/luntan/index
+用户名: root 密码: 123456
